@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3fda16e-ff07-42d9-b2f4-ddb993f0be55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helper/stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helper/stream.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/helper/stream.js" afterPath="$PROJECT_DIR$/src/helper/stream.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/helper/stream.test.js" afterPath="$PROJECT_DIR$/src/helper/stream.test.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +21,8 @@
           <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-349">
-                  <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+                <state relative-caret-position="335">
+                  <caret line="23" column="108" lean-forward="false" selection-start-line="23" selection-start-column="108" selection-end-line="23" selection-end-column="108" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -34,8 +33,8 @@
           <file leaf-file-name="stream.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/helper/stream.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="16" column="83" lean-forward="false" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="83" />
+                <state relative-caret-position="795">
+                  <caret line="53" column="55" lean-forward="false" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
                   <folding />
                 </state>
               </provider>
@@ -58,8 +57,8 @@
           <file leaf-file-name="stream.test.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/helper/stream.test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="475">
-                  <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+                <state relative-caret-position="403">
+                  <caret line="69" column="62" lean-forward="false" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
                   <folding />
                 </state>
               </provider>
@@ -80,10 +79,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/helper/stream.test.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/helper/stream.js" />
+        <option value="$PROJECT_DIR$/src/helper/stream.test.js" />
       </list>
     </option>
   </component>
@@ -198,6 +197,30 @@
     </option>
   </component>
   <component name="RunManager" selected="Jest.stream.can lower">
+    <configuration default="false" name="stream.has a standar" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/helper/stream.test.js" />
+      <test-names>
+        <test-name value="stream" />
+        <test-name value="has a standar" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="stream.hand calculation" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/helper/stream.test.js" />
+      <test-names>
+        <test-name value="stream" />
+        <test-name value="hand calculation" />
+      </test-names>
+      <method />
+    </configuration>
     <configuration default="false" name="stream" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <working-dir value="$PROJECT_DIR$" />
@@ -209,7 +232,7 @@
       </test-names>
       <method />
     </configuration>
-    <configuration default="false" name="stream.increases the input" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="stream.general test" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
@@ -217,19 +240,7 @@
       <test-file value="$PROJECT_DIR$/src/helper/stream.test.js" />
       <test-names>
         <test-name value="stream" />
-        <test-name value="increases the input" />
-      </test-names>
-      <method />
-    </configuration>
-    <configuration default="false" name="stream.has a standar" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/helper/stream.test.js" />
-      <test-names>
-        <test-name value="stream" />
-        <test-name value="has a standar" />
+        <test-name value="general test" />
       </test-names>
       <method />
     </configuration>
@@ -645,18 +656,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Jest.stream" />
-      <item index="1" class="java.lang.String" itemvalue="Jest.stream.increases the input" />
-      <item index="2" class="java.lang.String" itemvalue="Jest.stream.has a standar" />
-      <item index="3" class="java.lang.String" itemvalue="Jest.stream.can lower" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Jest.stream.has a standar" />
+      <item index="1" class="java.lang.String" itemvalue="Jest.stream.hand calculation" />
+      <item index="2" class="java.lang.String" itemvalue="Jest.stream" />
+      <item index="3" class="java.lang.String" itemvalue="Jest.stream.general test" />
+      <item index="4" class="java.lang.String" itemvalue="Jest.stream.can lower" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Jest.stream.can lower" />
-        <item index="1" class="java.lang.String" itemvalue="Jest.stream.has a standar" />
-        <item index="2" class="java.lang.String" itemvalue="Jest.stream.increases the input" />
-        <item index="3" class="java.lang.String" itemvalue="Jest.stream" />
+        <item index="1" class="java.lang.String" itemvalue="Jest.stream" />
+        <item index="2" class="java.lang.String" itemvalue="Jest.stream.general test" />
+        <item index="3" class="java.lang.String" itemvalue="Jest.stream.has a standar" />
+        <item index="4" class="java.lang.String" itemvalue="Jest.stream.hand calculation" />
       </list>
     </recent_temporary>
   </component>
@@ -670,44 +683,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547650131978</updated>
-      <workItem from="1547650133877" duration="8187000" />
+      <workItem from="1547650133877" duration="15153000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="stream_can_lower - 2019.01.16 at 11h 03m 17s.xml">
+    <history-entry file="stream_can_lower - 2019.01.16 at 14h 04m 02s.xml">
       <configuration name="stream.can lower" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="stream_can_lower - 2019.01.16 at 11h 08m 01s.xml">
+    <history-entry file="stream_can_lower - 2019.01.16 at 14h 04m 12s.xml">
       <configuration name="stream.can lower" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="stream_can_lower - 2019.01.16 at 11h 09m 31s.xml">
+    <history-entry file="stream_can_lower - 2019.01.16 at 14h 04m 22s.xml">
       <configuration name="stream.can lower" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="stream_has_a_standar - 2019.01.16 at 10h 02m 32s.xml">
-      <configuration name="stream.has a standar" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="stream_can_lower - 2019.01.16 at 14h 04m 31s.xml">
+      <configuration name="stream.can lower" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="stream_has_a_standar - 2019.01.16 at 10h 03m 44s.xml">
-      <configuration name="stream.has a standar" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="stream_can_lower - 2019.01.16 at 14h 05m 15s.xml">
+      <configuration name="stream.can lower" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="stream_has_a_standar - 2019.01.16 at 10h 05m 35s.xml">
-      <configuration name="stream.has a standar" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="stream_can_lower - 2019.01.16 at 14h 05m 38s.xml">
+      <configuration name="stream.can lower" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="stream_has_a_standar - 2019.01.16 at 10h 05m 57s.xml">
-      <configuration name="stream.has a standar" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="stream_can_lower - 2019.01.16 at 14h 06m 47s.xml">
+      <configuration name="stream.can lower" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="stream_has_a_standar - 2019.01.16 at 10h 06m 08s.xml">
-      <configuration name="stream.has a standar" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="stream_can_lower - 2019.01.16 at 14h 07m 38s.xml">
+      <configuration name="stream.can lower" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="stream_has_a_standar - 2019.01.16 at 10h 06m 25s.xml">
-      <configuration name="stream.has a standar" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="stream_can_lower - 2019.01.16 at 14h 08m 32s.xml">
+      <configuration name="stream.can lower" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="stream_has_a_standar - 2019.01.16 at 11h 09m 13s.xml">
-      <configuration name="stream.has a standar" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="stream_can_lower - 2019.01.16 at 14h 08m 59s.xml">
+      <configuration name="stream.can lower" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8187000" />
+    <option name="totallyTimeSpent" value="15153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1676" height="1027" extended-state="6" />
@@ -754,16 +767,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-349">
-          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -772,18 +775,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helper/stream.test.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="335">
+          <caret line="23" column="108" lean-forward="false" selection-start-line="23" selection-start-column="108" selection-end-line="23" selection-end-column="108" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/helper/stream.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="83" lean-forward="false" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="83" />
+        <state relative-caret-position="795">
+          <caret line="53" column="55" lean-forward="false" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helper/stream.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="69" column="62" lean-forward="false" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
           <folding />
         </state>
       </provider>

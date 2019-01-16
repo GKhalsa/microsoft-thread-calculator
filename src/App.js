@@ -10,18 +10,18 @@ class App extends Component {
       threads: 300,
       inputMinute:150,
       inputModulo:10,
-      minutesToRun: 480,
+      minutesToRun: 60,
       resultText:""
   };
 
   calculate = () => {
       const {inputPerMinute, sla, threads, inputMinute, inputModulo, minutesToRun} = this.state;
+      const result = Math.ceil(runner(minutesToRun,inputPerMinute,inputModulo,inputMinute ,sla,threads));
     debugger
-      const result = Math.ceil(runner(minutesToRun,inputPerMinute,inputModulo,(inputMinute/inputModulo) ,sla,threads));
     if (result == this.state.threads) {
       this.setState({resultText: `${result} thread(s) is enough`})
     } else if (result > this.state.threads){
-        this.setState({resultText: `${this.state.threads} is insufficient, you will need ${result} thread(s) `})
+        this.setState({resultText: `${this.state.threads} is insufficient, you will need ${result} thread(s)`})
     } else if (result < this.state.threads) {
         this.setState({resultText: `${this.state.threads} is more than you would need, you could optimize to only ${result} thread(s)`})
     }
