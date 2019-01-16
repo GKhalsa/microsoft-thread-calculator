@@ -72,7 +72,7 @@ class App extends Component {
           </button>
         </div>
 
-        eg. 300 files per minute input, sla is 30 minutes, 300 threads, with three hundred threads we can handle 150 files per 10 minutes in the case of just splitting stereo and sending that through, and we want it to run for 8 hours.
+        eg. 300 files per minute input, sla is 30 minutes, 300 threads, with three hundred threads we can handle 150 files per 10 minutes in the case of just splitting stereo and sending that through, and we want it to run for 60 minutes.
 
         <div className="result__box">
             {this.state.resultText}
