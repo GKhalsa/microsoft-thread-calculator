@@ -19,7 +19,7 @@ class App extends Component {
       const result = Math.ceil(runner(minutesToRun,inputPerMinute,inputModulo,inputMinute ,sla,threads));
     debugger
     if (result == this.state.threads) {
-      this.setState({resultText: `${result} thread(s) is enough`})
+      this.setState({resultText: `${result} thread(s) is perfect`})
     } else if (result > this.state.threads){
         this.setState({resultText: `${this.state.threads} is insufficient, you will need ${result} thread(s)`})
     } else if (result < this.state.threads) {

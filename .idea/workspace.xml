@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d3fda16e-ff07-42d9-b2f4-ddb993f0be55" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/helper/stream.js" afterPath="$PROJECT_DIR$/src/helper/stream.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/helper/stream.test.js" afterPath="$PROJECT_DIR$/src/helper/stream.test.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +16,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="335">
-                  <caret line="23" column="108" lean-forward="false" selection-start-line="23" selection-start-column="108" selection-end-line="23" selection-end-column="108" />
+                <state relative-caret-position="283">
+                  <caret line="21" column="64" lean-forward="false" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -30,10 +28,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="stream.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="stream.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/helper/stream.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="795">
+                <state relative-caret-position="414">
                   <caret line="53" column="55" lean-forward="false" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
                   <folding />
                 </state>
@@ -54,11 +52,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="stream.test.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="stream.test.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/helper/stream.test.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="403">
                   <caret line="69" column="62" lean-forward="false" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -80,9 +88,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/helper/stream.js" />
         <option value="$PROJECT_DIR$/src/helper/stream.test.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -178,6 +186,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="SearchEverywhereHistoryKey" value="package.&#9;FILE&#9;file:///Users/Gurusundesh/programming/microsoft-thread-calculator/package.json" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -676,6 +685,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d3fda16e-ff07-42d9-b2f4-ddb993f0be55" name="Default" comment="" />
@@ -683,7 +695,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547650131978</updated>
-      <workItem from="1547650133877" duration="15153000" />
+      <workItem from="1547650133877" duration="15720000" />
     </task>
     <servers />
   </component>
@@ -720,7 +732,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15153000" />
+    <option name="totallyTimeSpent" value="15720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1676" height="1027" extended-state="6" />
@@ -775,19 +787,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="23" column="108" lean-forward="false" selection-start-line="23" selection-start-column="108" selection-end-line="23" selection-end-column="108" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/helper/stream.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
+        <state relative-caret-position="414">
           <caret line="53" column="55" lean-forward="false" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
           <folding />
         </state>
@@ -798,6 +800,24 @@
         <state relative-caret-position="403">
           <caret line="69" column="62" lean-forward="false" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="21" column="64" lean-forward="false" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
